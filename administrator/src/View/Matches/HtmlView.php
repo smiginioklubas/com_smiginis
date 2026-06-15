@@ -1,6 +1,6 @@
 <?php
 
-namespace Smiginis\Component\Smiginis\Administrator\View\Dashboard;
+namespace Smiginis\Component\Smiginis\Administrator\View\Matches;
 
 \defined('_JEXEC') or die;
 
@@ -17,6 +17,6 @@ class HtmlView extends BaseHtmlView
 
     protected function addToolbar(): void
     {
-        ToolbarHelper::title(\JText::_('COM_SMIGINIS_DASHBOARD_TITLE'), 'dashboard');
+        ToolbarHelper::title(\JText::_('COM_SMIGINIS_MATCHES_TITLE'), 'controller');
     }
 }

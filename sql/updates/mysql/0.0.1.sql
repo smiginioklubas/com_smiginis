@@ -1,0 +1,2 @@
+﻿-- com_smiginis update script for version 0.0.1
+-- No schema changes required for the initial release.

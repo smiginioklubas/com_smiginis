@@ -1,22 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?>
-<extension type="component" method="upgrade">
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="5.0" method="upgrade">
     <name>COM_SMIGINIS</name>
-
     <author>Smiginio klubas</author>
-
     <creationDate>2026</creationDate>
-
-    <version>0.1.0</version>
-
+    <version>0.0.1</version>
     <description>Smiginio valdymo sistema Joomla 5</description>
-
     <namespace path="src">Smiginis\Component\Smiginis</namespace>
-
     <administration>
-
         <menu>COM_SMIGINIS</menu>
-
+        <submenu>
+            <name>COM_SMIGINIS_DASHBOARD</name>
+            <view>dashboard</view>
+        </submenu>
+        <submenu>
+            <name>COM_SMIGINIS_PLAYERS</name>
+            <view>players</view>
+        </submenu>
+        <submenu>
+            <name>COM_SMIGINIS_CLUBS</name>
+            <view>clubs</view>
+        </submenu>
+        <submenu>
+            <name>COM_SMIGINIS_TOURNAMENTS</name>
+            <view>tournaments</view>
+        </submenu>
+        <submenu>
+            <name>COM_SMIGINIS_MATCHES</name>
+            <view>matches</view>
+        </submenu>
+        <submenu>
+            <name>COM_SMIGINIS_SETTINGS</name>
+            <view>settings</view>
+        </submenu>
+        <languages folder="administrator/language">
+            <language tag="en-GB">en-GB/en-GB.com_smiginis.ini</language>
+            <language tag="lt-LT">lt-LT/lt-LT.com_smiginis.ini</language>
+        </languages>
+        <files folder="administrator">
+            <folder>services</folder>
+            <folder>src</folder>
+            <folder>tmpl</folder>
+            <folder>language</folder>
+        </files>
     </administration>
-
+    <files folder="site">
+        <folder>services</folder>
+        <folder>src</folder>
+        <folder>tmpl</folder>
+        <folder>language</folder>
+    </files>
+    <languages folder="site/language">
+        <language tag="en-GB">en-GB/en-GB.com_smiginis.ini</language>
+        <language tag="lt-LT">lt-LT/lt-LT.com_smiginis.ini</language>
+    </languages>
+    <media destination="com_smiginis">media/com_smiginis</media>
+    <install>
+        <sql>sql/install/mysql/install.mysql.utf8.sql</sql>
+    </install>
+    <uninstall>
+        <sql>sql/uninstall/mysql/uninstall.mysql.utf8.sql</sql>
+    </uninstall>
+    <update>
+        <sql>sql/updates/mysql/0.0.1.sql</sql>
+    </update>
 </extension>
