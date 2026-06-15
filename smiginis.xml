@@ -29,6 +29,18 @@
             <view>matches</view>
         </submenu>
         <submenu>
+            <name>COM_SMIGINIS_TEAMS</name>
+            <view>teams</view>
+        </submenu>
+        <submenu>
+            <name>COM_SMIGINIS_RANKINGS</name>
+            <view>rankings</view>
+        </submenu>
+        <submenu>
+            <name>COM_SMIGINIS_STATISTICS</name>
+            <view>statistics</view>
+        </submenu>
+        <submenu>
             <name>COM_SMIGINIS_SETTINGS</name>
             <view>settings</view>
         </submenu>
@@ -41,6 +53,7 @@
             <folder>src</folder>
             <folder>tmpl</folder>
             <folder>language</folder>
+            <folder>forms</folder>
         </files>
     </administration>
     <files folder="site">

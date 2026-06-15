@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="club">
+        <field name="id" type="hidden" />
+        <field name="name" type="text" label="COM_SMIGINIS_FIELD_NAME_LABEL" description="COM_SMIGINIS_FIELD_NAME_DESC" required="true" size="40" />
+        <field name="city" type="text" label="COM_SMIGINIS_FIELD_CITY_LABEL" />
+        <field name="country" type="text" label="COM_SMIGINIS_FIELD_COUNTRY_LABEL" />
+        <field name="founded" type="calendar" label="COM_SMIGINIS_FIELD_FOUNDED_LABEL" format="%Y-%m-%d" />
+        <field name="website" type="url" label="COM_SMIGINIS_FIELD_WEBSITE_LABEL" />
+        <field name="logo" type="media" label="COM_SMIGINIS_FIELD_LOGO_LABEL" directory="images" />
+        <field name="published" type="radio" label="COM_SMIGINIS_FIELD_PUBLISHED_LABEL" default="1">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        <field name="ordering" type="ordering" label="COM_SMIGINIS_FIELD_ORDERING_LABEL" />
+    </fieldset>
+</form>
