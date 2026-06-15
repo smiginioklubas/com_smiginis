@@ -13,20 +13,16 @@
             <view>dashboard</view>
         </submenu>
         <submenu>
+            <name>COM_SMIGINIS_TOURNAMENTS</name>
+            <view>tournaments</view>
+        </submenu>
+        <submenu>
             <name>COM_SMIGINIS_PLAYERS</name>
             <view>players</view>
         </submenu>
         <submenu>
             <name>COM_SMIGINIS_CLUBS</name>
             <view>clubs</view>
-        </submenu>
-        <submenu>
-            <name>COM_SMIGINIS_TOURNAMENTS</name>
-            <view>tournaments</view>
-        </submenu>
-        <submenu>
-            <name>COM_SMIGINIS_MATCHES</name>
-            <view>matches</view>
         </submenu>
         <submenu>
             <name>COM_SMIGINIS_TEAMS</name>
