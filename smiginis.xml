@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" method="upgrade">
+
+    <name>COM_SMIGINIS</name>
+
+    <author>Smiginio klubas</author>
+
+    <creationDate>2026</creationDate>
+
+    <version>0.1.0</version>
+
+    <description>Smiginio valdymo sistema Joomla 5</description>
+
+    <namespace path="src">Smiginis\Component\Smiginis</namespace>
+
+    <administration>
+
+        <menu>COM_SMIGINIS</menu>
+
+    </administration>
+
+</extension>
